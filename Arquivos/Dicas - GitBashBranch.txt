@@ -1,0 +1,146 @@
+Tim Benners Lee- criador da primeira página Web
+
+HTML- Hyper text Markup Language
+
+HTML 2- 1995
+HTML 3 -1997
+HTML 4- 1999
+HTML 5 -2004
+
+VS CODE 
+ * VERIFICAR O AUTO-SAVE NO (FILE)
+ * NO TERMINAL DEIXAR SELECT DEFAULT PROFILE 
+   O GITBASH
+
+EXTENSÕES
+ * MATERIAL ICON THEME
+ * LIVE SERVER
+
+SITE DE ICONES
+
+https://icons8.com/
+https://www.flaticon.com/
+
+SITE DE TEXTOS 
+
+https://https://www.lipsum.com/
+
+* AO BAIXAR UMA IMAGEM DEIXAR O NOME COM
+PADRÃO
+
+! + Enter = cria a estrutura padrão do html
+
+Comandos Window 
+
+dir -LISTA DIRETORIOS
+cls -LIMPA TELA
+tree - MOSTRAR A ESTRUTURA DE DIRETORIOS
+cd .. - VOLTAR
+cd + nome da pasta - ENTRAR
+mkdir + nome da pasta - CRIAR UM DIRETORIO(PASTA)
+rd + nome da pasta - APAGAR PASTA
+del - APAGA ARQUIVOS
+type nul> ARQUIVO.TXT
+color : [1 A 9 de A a F]= hexadecimal
+dir /s /w - LISTA TUDO EM COLUNAS (MATRIZ)
+
+
+Comandos do Linux
+
+ls - lista diretórios
+cd + nome da pasta  - entra no diretorio
+cd .. - volta 
+touch nome do arquivo - cria arquivo
+
+
+
+GIT BASH- Ferramenta de Versiosamento de Código
+
+CRIADO POR LINUX TORVALDS EM 2002
+
+NO TERMINAL DO GIT BASH
+
+ENTRAR NO DESKTOP
+cd desktop
+
+CRIAR A PASTA VIA COMANDO
+ mkdir NomeDaPasta
+
+ABRIR A PASTA DENTRO DO VSCODE
+ entra na pasta e no terminal digita:
+
+ code .
+
+INICIA O GIT
+git init
+
+VERIFICA SE TEM USUARIO
+git config --global user.name
+
+CONFIGURAR O USUARIO 
+git config --global user.name "NOME"
+
+VERIFICA SE TEM E EMAIL
+git config --global user.email
+
+CONFIGURA O EMAIL
+git config --global user.email email@email.com
+
+VERIFICA A SITUAÇÃO DO GIT 
+git status
+
+ADICIONA O ARQUIVO OU ALTERAÇÃO 
+git add .
+
+REALIZA O COMMIT COM UMA MENSAGEM
+
+git commit -m "mensagem do que realizou"
+
+VERIFICA OS COMMITS FEITOS
+
+git log
+
+MOSTRA O QUE FOI FEITO NO ULTIMO COMMIT 
+
+git show
+
+
+ALTERAR O ULTIMO COMMIT FEITO
+
+git commit --amend -m "mensagem alterada"
+
+
+*********RIAR BRANCH ********************
+
+AO CRIAR O PROJETO E INICIALIZAR O git init
+ 
+Na Branch Master 
+
+git status
+git add .
+git commit -m "Criando o projeto"
+
+CRIAR A BRANCH
+
+git checkout -b dev
+
+VERIFICAR BRANCH
+
+git branch
+
+NAVEGAR ENTRE AS BRANCHS
+
+git checkout master 
+
+
+**PARA SUBIR O PROJETO PARA O GITGUB É PRECISO ESTAR NA BRANCH MASTER E TRAZER TUDO QUE FEZ NA BRANCH DEV
+
+TRAZENDO O QUE FOI FEITO NA BRANCH DEV
+
+na branch master
+
+git merge dev
+
+
+
+
