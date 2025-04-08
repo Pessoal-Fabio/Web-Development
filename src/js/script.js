@@ -95,3 +95,45 @@ const num6 =35
 console.log(num5 == num6) //compara
 console.log(num5 === num6) //compara e verifica o tipo de variavel
 console.log(num5!= num6) //diferente
+
+//ESTRUTURA CONDICIONAL
+
+//IF
+
+let valor1=100;
+
+if(valor1 == 100){
+console.log("é verdadeiro")
+}
+
+//if/else
+
+let valor2=100;
+
+if(valor2 == 100){
+    console.log("Valor Correto")
+}else{
+    console.log("Valor Errado")
+}
+
+//if/else - encadeado ou aninhado
+
+let idade1 = 18;
+
+if(idade1 < 14){
+    console.log("Não pode entrar na balada")
+
+}else if(idade1 >= 14 && idade < 18){
+    console.log("Pode Entrar e curtir")
+}else if(idade1 > 50 && idade <70){
+    console.log("Você não tem idade para isso")
+}else{
+    console.log("Fica em casa assistindo tv")
+}
+
+// CONDIÇÃO TERNÁRIA
+
+let valor3 = 300;
+
+let resultado = valor3 == 300 ? "Certo" : "Errado"; // ? é if, : é else
+console.log(resultado);
