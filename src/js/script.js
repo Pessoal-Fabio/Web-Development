@@ -116,19 +116,21 @@ if(valor2 == 100){
     console.log("Valor Errado")
 }
 
-//if/else - encadeado ou aninhado
+// if/else - encadeado ou aninhado
 
 let idade1 = 18;
 
-if(idade1 < 14){
-    console.log("Não pode entrar na balada")
-
-}else if(idade1 >= 14 && idade < 18){
-    console.log("Pode Entrar e curtir")
-}else if(idade1 > 50 && idade <70){
-    console.log("Você não tem idade para isso")
-}else{
-    console.log("Fica em casa assistindo tv")
+if (idade1 < 14) {
+    console.log("Não pode entrar na balada");
+}
+else if (idade1 >= 14 && idade1 < 18) {
+    console.log("Pode Entrar e curtir");
+}
+else if (idade1 > 50 && idade1 < 70) {
+    console.log("Você não tem idade para isso");
+}
+else {
+    console.log("Fica em casa assistindo tv");
 }
 
 // CONDIÇÃO TERNÁRIA
@@ -137,3 +139,45 @@ let valor3 = 300;
 
 let resultado = valor3 == 300 ? "Certo" : "Errado"; // ? é if, : é else
 console.log(resultado);
+
+//SWITCH CASE
+
+let time="Corinthians"
+
+switch(time){
+    case "Corinthians":
+        console.log("Melhor Time")
+        break;
+    case "São Paulo":
+        console.log("Não é um time")
+        break;
+    case "Palmeiras":
+        console.log("Não tem Mundia")
+        break;
+    default:
+        console.log("Nenhuma das opções")
+}
+
+//ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+for(let i=0;i<10;i++){
+    console.log("O valor de I é :", i)
+}
+
+//WHILE
+
+let W=0
+
+while(W<=10){
+    console.log("O valorde W é ",W)
+    W++;
+}
+
+//do While
+
+let Z= 10;
+
+do{
+    console.log("do while é", Z)
+    Z++;
+}while(Z <=100)
