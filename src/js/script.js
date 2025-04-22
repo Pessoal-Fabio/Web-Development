@@ -195,3 +195,64 @@ function semaforo(){
     console.log(`O semaforo está ${sinal}`)
 }
 semaforo()
+
+// CRIAR UM PROGRAMA QUE VERIFICA A IDADE PARA VOTAR (FUNÇÃO)
+
+function verificarVoto(idade){
+    if(idade >=16){
+        console.log("Pode votar")
+        // console.log(`Pode votar`)
+        // prompt(`Pode votar`)
+        // alert(`Pode votar`)
+    }else{
+        console.log("Não Pode votar")
+        // console.log(`Não pode votar`)
+        // prompt(`Não pode votar`)
+        // alert(`Pode votar`)
+    }
+}
+verificarVoto(15)
+verificarVoto(18)
+
+//CRIE UM PROGRAMA QUE IMPRIME SEUS ELEMENTOS EM ARRAY(FOR)
+
+const codigos = ["codigo1", "codigo2", "codigo3", "codigo4"];
+
+for (let i = 0; i < codigos.length; i++) {
+  console.log("O valor de codigos:", codigos[i]);
+}
+
+//CRIE UM PROGRAMA QUE VALIDE A ENTRA DO USUARIO(WHILE)
+
+/* let numero;
+
+do{
+    numero=parseInt(prompt("Digite um numero maior que 10"))
+}while(numero <=10)
+
+console.log(`Numero valido ${numero}`) */
+
+// CRIE UM PROGRAMA QUE REPRESENTE UM JOGO DE ADVINHAÇÃO
+
+/* let palpite;
+const sorteio =Math.floor(Math.random() *10)+1;
+
+do{
+    palpite =parseInt(prompt("Escolha um numero entre 1 e 10"))
+}while(palpite !== sorteio)
+
+    alert(`Parabéns ! Você acertou o numero${palpite} é um gênio`); */
+
+let palpite;
+const sorteio = Math.floor(Math.random() * 10) + 1;
+    
+if (palpite !== sorteio) {
+    palpite = parseInt(prompt("Escolha um número entre 1 e 10"), 10);
+}
+    
+while (palpite !== sorteio) {
+    palpite = parseInt(prompt("Tente novamente! Escolha um número entre 1 e 10"), 10);
+}
+    
+alert(`Parabéns! Você acertou o número ${palpite} é um gênio!`);
+    
