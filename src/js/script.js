@@ -243,7 +243,7 @@ do{
 
     alert(`Parabéns ! Você acertou o numero${palpite} é um gênio`); */
 
-let palpite;
+/* let palpite;
 const sorteio = Math.floor(Math.random() * 10) + 1;
     
 if (palpite !== sorteio) {
@@ -254,5 +254,20 @@ while (palpite !== sorteio) {
     palpite = parseInt(prompt("Tente novamente! Escolha um número entre 1 e 10"), 10);
 }
     
-alert(`Parabéns! Você acertou o número ${palpite} é um gênio!`);
-    
+alert(`Parabéns! Você acertou o número ${palpite} é um gênio!`); */
+
+//DOM
+const mensagem =document.getElementById("mensagem")
+mensagem.textContent = "Bem vindo Dev"
+   
+const lista = document.getElementById("lista-linguagem")
+const novoItem = document.createElement("li")
+novoItem.textContent = "Python"
+lista.appendChild(novoItem);
+
+const conteudo = document.getElementById('conteudo')
+const btnMostrar = document.getElementById('mostrar');
+
+btnMostrar.addEventListener('click', ()=>{
+    conteudo.style.display =conteudo.style.display === `none`? `block`:`none`;
+})
