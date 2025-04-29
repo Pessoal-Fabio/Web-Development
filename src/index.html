@@ -1,31 +1,47 @@
-<!-- IDENTIFICA A VERSÃO DO NAVEGADOR -->
 <!DOCTYPE html>
-<!-- INICIO DO HTML E A DEFINIÇÃO DA LINGUAGEM -->
 <html lang="pt-BR">
-<!-- INICIO DO CABEÇALHO -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
-    
-    <!-- ÍCONE DA ABA DO NAVEGADOR -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teste de DOM Semântico</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header>
-        <h1>DOM-Document Object Model</h1>
-    </header>
+  <header>
+    <h1>DOM – Document Object Model</h1>
+    <nav>
+      <ul>
+        <li><a href="#mensagem">Mensagem</a></li>
+        <li><a href="#lista-linguagem">Linguagens</a></li>
+        <li><a href="#conteudo">Conteúdo</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <p id="mensagem">Olá</p>
+  <main>
+    <section id="mensagem">
+      <p>Olá</p>
+    </section>
 
-    <ul id="lista-linguagem">
-        <li> JavaScript</li>
-    </ul>
+    <section id="lista-linguagem">
+      <h2>Linguagens</h2>
+      <ul>
+        <li>JavaScript</li>
+      </ul>
+    </section>
 
-    <div id="conteudo" style="display: none;">Tudo sobe programação</div>
-    <button id="mostrar">Mostrar</button>
+    <section id="conteudo">
+      <h2>Conteúdo</h2>
+      <p style="display: none;">Tudo sobre programação</p>
+      <button id="mostrar">Mostrar</button>
+    </section>
+  </main>
 
-    <!-- CHAMANDO O JAVASCRIPT EXTERNO -->
-    <script src="./js/script.js"></script>
+  <footer>
+    <p>© 2025 Vinheria Totti</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
